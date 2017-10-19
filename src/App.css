@@ -1,0 +1,59 @@
+body {
+background-image: url('./assets/todotodo.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*li{
+  list-style-type: none;
+}*/
+ul{
+  border: 2px solid black;
+  padding: 20px 50px;
+  border-radius: 7px;
+  width: 30%;
+  min-height: 70%;
+  text-align: left;
+  font-size: 22px;
+  color: #43234c;
+  line-height: 1.3;
+}
+.submit {
+  cursor: pointer;
+  background-color: #43234c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.myInput {
+  display: flex;
+  justify-content: center;
+}
+.myInput  p {
+  font-size: 20px;
+}
+input{
+  margin: 10px;
+  width: 300px;
+  min-height: 40px;
+  border-radius: 6px;
+  font-size: 17px;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
